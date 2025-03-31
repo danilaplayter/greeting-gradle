@@ -11,6 +11,7 @@ class GreetingTest {
         Greeting greeting = new Greeting();
         String result = greeting.greeting();
         assertEquals( result, "Hello MP-10 done");
+
     }
 
 }
